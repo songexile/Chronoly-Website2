@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-  --main-color: (255, 200, 235, 1);
+  --main-color: (242, 224, 223);
   /* Fonts */
   --ff-serif: serif;
   --ff-sans-cond: "Barlow Condensed", sans-serif;
@@ -177,7 +177,7 @@ select {
 }
 
 .bg-main {
-  background-color: hsl(var(--main-color));
+  background-color: rgb(var(--main-color));
 }
 
 .ff-serif {

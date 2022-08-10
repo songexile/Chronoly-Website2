@@ -1,20 +1,22 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ReactDOM from "react-dom/client";
+import React from "react";
+
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
-import Dashboard from "./components/Dashboard";
-import Footer from "./components/Footer";
+import DashboardPage from "./pages/DashboardPage";
+import OptionsPage from "./pages/OptionsPage";
+import ProfilePage from "./pages/ProfilePage";
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <Navbar />
-        <div className="container--maincontent">
-          <Sidebar />
-          <Dashboard />
-        </div>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="dash" element={<DashboardPage />} />
+        <Route path="options" element={<OptionsPage />} />
+        <Route path="profile" element={<ProfilePage />} />
+        <Route index element={<DashboardPage />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
