@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="dash" element={<DashboardPage />} />
+        <Route path="/" element={<DashboardPage />} />
         <Route path="options" element={<OptionsPage />} />
         <Route path="profile" element={<ProfilePage />} />
         <Route index element={<DashboardPage />}></Route>

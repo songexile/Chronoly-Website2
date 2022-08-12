@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="nav">
         <h2 className="fs-600">CHRONOLY</h2>
         <h2>
-          <Link to="dash">Dashboard</Link>
+          <Link to="/">Dashboard</Link>
         </h2>
         <h2>
           <Link to="options">Options</Link>
