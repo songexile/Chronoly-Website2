@@ -96,6 +96,9 @@ select {
   }
 }
 
+* {
+  background-color: #fff1f0;
+}
 .container {
   padding-inline: 1em;
   margin-inline: auto;
