@@ -4,16 +4,22 @@ import { Outlet, Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="nav--container">
-      <div className="nav">
+      <div className="nav ">
         <h2 className="fs-600">CHRONOLY</h2>
         <h2>
-          <Link to="/">Dashboard</Link>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            Dashboard
+          </Link>
+        </h2>
+        <h2 className="no-decoration">
+          <Link to="options" style={{ textDecoration: "none" }}>
+            Options
+          </Link>
         </h2>
         <h2>
-          <Link to="options">Options</Link>
-        </h2>
-        <h2>
-          <Link to="profile">Profile</Link>
+          <Link to="profile" style={{ textDecoration: "none" }}>
+            Profile
+          </Link>
         </h2>
       </div>
     </div>
