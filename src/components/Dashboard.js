@@ -10,29 +10,7 @@ const Dashboard = () => {
   return (
     <div className="dashboard">
       <Chart />
-      <div className="dashboard--content">
-        {/* Represents one row */}
 
-        <div class="row">
-          <div class="column ">
-            <img src={Bar} />
-          </div>
-          <div class="column ">
-            {" "}
-            <img src={Bar2} />
-          </div>
-        </div>
-        <div class="row">
-          <div class="column ">
-            {" "}
-            <img src={Bar3} />
-          </div>
-          <div class="column ">
-            {" "}
-            <img src={Pie} />
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
