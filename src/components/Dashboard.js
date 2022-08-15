@@ -4,11 +4,15 @@ import Bar2 from "../img/bar2.png";
 import Bar3 from "../img/bar3.jpg";
 import Pie from "../img/pie.png";
 
+import Chart from "./Chart";
+
 const Dashboard = () => {
   return (
     <div className="dashboard">
+      <Chart />
       <div className="dashboard--content">
         {/* Represents one row */}
+
         <div class="row">
           <div class="column ">
             <img src={Bar} />
