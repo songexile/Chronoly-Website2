@@ -1,16 +1,26 @@
 import React from "react";
-import Bar from "../img/bar.png";
-import Bar2 from "../img/bar2.png";
-import Bar3 from "../img/bar3.jpg";
-import Pie from "../img/pie.png";
+import { BarGraph } from "./Charts/BarGraph";
+import { ScatterGraph } from "./Charts/ScatterGraph";
+import { DoughnutChart } from "./Charts/DoughnutChart";
 
 import Chart from "./Chart";
 
 const Dashboard = () => {
   return (
     <div className="dashboard">
-      <Chart />
-
+      <div class="row">
+        <div class="column ">
+          <BarGraph />
+        </div>
+        <div class="column ">
+          <ScatterGraph />
+          <DoughnutChart />
+        </div>
+      </div>
+      <div class="row">
+        <div class="column "></div>
+        <div class="column "></div>
+      </div>
     </div>
   );
 };
