@@ -5,7 +5,8 @@ const ProfilePage = () => {
   return (
     <div className="container">
       <Navbar />
-      <h1>your profile</h1>
+      <h1>John Doe</h1>
+      <h1>Premium User</h1>
     </div>
   );
 };

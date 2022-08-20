@@ -3,7 +3,8 @@ import { BarGraph } from "./Charts/BarGraph";
 import { ScatterGraph } from "./Charts/ScatterGraph";
 import { DoughnutChart } from "./Charts/DoughnutChart";
 import { RadChart } from "./Charts/RadChart";
-
+//This is the dashboard it contains the graphs you see when you are on the dash.
+//These graphs are meant to be smaller and more of a preview
 const Dashboard = () => {
   return (
     <div className="dashboard">

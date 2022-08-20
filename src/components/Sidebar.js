@@ -1,6 +1,8 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 
+//Sidebar, used to display options
+
 const Sidebar = () => {
   return (
     <div className="sidebar">
@@ -17,27 +19,27 @@ const Sidebar = () => {
             </Link>
           </h2>
           <h2>
-            <Link to="g-cumulative" style={{ textDecoration: "none" }}>
+            <Link to="g-racetrack" style={{ textDecoration: "none" }}>
               Cumulative
             </Link>
           </h2>
           <h2>
-            <Link to="g-relay" style={{ textDecoration: "none" }}>
+            <Link to="g-racetrack" style={{ textDecoration: "none" }}>
               Relay
             </Link>
           </h2>
           <h2>
-            <Link to="g-dissociative" style={{ textDecoration: "none" }}>
+            <Link to="g-racetrack" style={{ textDecoration: "none" }}>
               Dissociative
             </Link>
           </h2>
           <h2>
-            <Link to="g-flow" style={{ textDecoration: "none" }}>
+            <Link to="g-racetrack" style={{ textDecoration: "none" }}>
               Flow
             </Link>
           </h2>
           <h2>
-            <Link to="g-ops" style={{ textDecoration: "none" }}>
+            <Link to="g-racetrack" style={{ textDecoration: "none" }}>
               OPS average
             </Link>
           </h2>
