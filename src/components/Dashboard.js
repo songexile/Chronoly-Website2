@@ -2,8 +2,7 @@ import React from "react";
 import { BarGraph } from "./Charts/BarGraph";
 import { ScatterGraph } from "./Charts/ScatterGraph";
 import { DoughnutChart } from "./Charts/DoughnutChart";
-
-import Chart from "./Chart";
+import { RadChart } from "./Charts/RadChart";
 
 const Dashboard = () => {
   return (
@@ -11,6 +10,7 @@ const Dashboard = () => {
       <div class="row">
         <div class="column ">
           <BarGraph />
+          <RadChart />
         </div>
         <div class="column ">
           <ScatterGraph />

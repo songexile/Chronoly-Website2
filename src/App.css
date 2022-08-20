@@ -170,12 +170,12 @@ select {
 
 .row {
   display: flex;
-  margin: 0 20%;
+  margin: 0 10%;
 }
 
 .column {
   padding: auto;
-  height: 30rem;
+
 }
 
 .footer {
